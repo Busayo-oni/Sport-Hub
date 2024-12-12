@@ -14,7 +14,7 @@ import TransferNews from './pages/transferNews';
 import TopKnockouts2024 from './pages/TopKnockouts2024';
 import UsykTrainingRegimen from './pages/UsykTrainingRegimen';
 import Cricket from './pages/cricket';
-import Basketball from './pages/Basketball';
+import Basketball from './pages/basketball';
 function App() {
   return (
     <Router>
