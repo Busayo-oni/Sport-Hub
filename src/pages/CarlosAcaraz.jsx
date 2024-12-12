@@ -1,7 +1,7 @@
 import Header from '../pages/Header';
 import Footer from '../pages/Footer';
 import ImageWithCaption from './widthcaption';
-import PlayerStats from './PlayerStats'; // Assume you have this component
+import PlayerStats from './playerStats';
 import image1 from '../assets/alcaraz1.jpg';
 import image2 from '../assets/alcaraz2.webp';
 import image3 from '../assets/alcaraz3.jpg';
