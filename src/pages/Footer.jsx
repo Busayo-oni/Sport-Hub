@@ -114,7 +114,7 @@ export default function Footer() {
         {/* Footer Bottom Section */}
         <div className="mt-8 border-t border-gray-700 pt-6 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-sm">
-            © {new Date().getFullYear()} Sport Blog. All rights reserved.
+            © {new Date().getFullYear()} Sport Blog. All rights reserved.  <strong>DeOracleEdge</strong> Creation
           </p>
           <ul className="flex space-x-4 text-sm mt-4 sm:mt-0">
             <li>

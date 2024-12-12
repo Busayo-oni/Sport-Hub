@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Logo from '../assets/sports-logo.png'
+import { Link } from "react-router-dom";
+
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -46,24 +48,24 @@ export default function Header() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6">
-          <a href="/" className="hover:text-gray-300">
+          <Link to="/" className="hover:text-gray-300">
             Home
-          </a>
-          <a href="/football" className="hover:text-gray-300">
+          </Link>
+          <Link to="/football" className="hover:text-gray-300">
             Football
-          </a>
-          <a href="/boxing" className="hover:text-gray-300">
+          </Link>
+          <Link to="/boxing" className="hover:text-gray-300">
             Boxing
-          </a>
-          <a href="/tennis" className="hover:text-gray-300">
+          </Link>
+          <Link to="/tennis" className="hover:text-gray-300">
             Tennis
-          </a>
-          <a href="/AboutUs" className="hover:text-gray-300">
+          </Link>
+          <Link to="/AboutUs" className="hover:text-gray-300">
             About Us
-          </a>
-          <a href="/ContactUs" className="hover:text-gray-300">
+          </Link>
+          <Link to="/ContactUs" className="hover:text-gray-300">
             Contact Us
-          </a>
+          </Link>
         </nav>
       </div>
 
@@ -71,24 +73,24 @@ export default function Header() {
       {isMenuOpen && (
         <div className="md:hidden bg-blue-700">
           <nav className="flex flex-col items-center space-y-2 py-2 px-4">
-            <a href="/" className="hover:text-gray-300">
+            <Link to="/" className="hover:text-gray-300">
               Home
-            </a>
-            <a href="/football" className="hover:text-gray-300">
+            </Link>
+            <Link to="/football" className="hover:text-gray-300">
               Football
-            </a>
-            <a href="/boxing" className="hover:text-gray-300">
+            </Link>
+            <Link to="/boxing" className="hover:text-gray-300">
               Boxing
-            </a>
-            <a href="/tennis" className="hover:text-gray-300">
+            </Link>
+            <Link to="/tennis" className="hover:text-gray-300">
               Tennis
-            </a>
-            <a href="/AboutUs" className="hover:text-gray-300">
+            </Link>
+            <Link to="/AboutUs" className="hover:text-gray-300">
             About Us
-          </a>
-          <a href="/ContactUs" className="hover:text-gray-300">
+          </Link>
+          <Link to="/ContactUs" className="hover:text-gray-300">
             Contact Us
-          </a>
+          </Link>
           </nav>
         </div>
       )}
