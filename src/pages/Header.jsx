@@ -67,6 +67,9 @@ export default function Header() {
             Contact Us
           </Link>
         </nav>
+        <button
+        className="bg-white hidden lg:block text-blue-500 font-bold px-6 py-3 rounded-md shadow-md hover:bg-blue-200"
+        ><Link to="/Create">Create Post</Link> </button>
       </div>
 
       {/* Mobile Dropdown */}
@@ -91,6 +94,9 @@ export default function Header() {
           <Link to="/ContactUs" className="hover:text-gray-300">
             Contact Us
           </Link>
+          <button
+        className="hover:text-gray-300"
+        ><Link to="/Create">Create Post</Link> </button>
           </nav>
         </div>
       )}

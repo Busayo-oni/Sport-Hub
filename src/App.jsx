@@ -15,6 +15,9 @@ import TopKnockouts2024 from './pages/TopKnockouts2024';
 import UsykTrainingRegimen from './pages/UsykTrainingRegimen';
 import Cricket from './pages/cricket';
 import Basketball from './pages/basketball';
+import Create from './pages/CreatePostPage';
+import PostDetail from './pages/PostDetail'
+
 function App() {
   return (
     <Router>
@@ -34,6 +37,9 @@ function App() {
         <Route path="/UsykTrainingRegimen" element={<UsykTrainingRegimen />} />
         <Route path="/Cricket" element={<Cricket />} />
         <Route path="/Basketball" element={<Basketball />} />
+        <Route path="/Create" element={<Create />} />
+        <Route path="/Post/:id" element={<PostDetail />} />
+
 
 
       </Routes>
