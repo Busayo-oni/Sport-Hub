@@ -4,7 +4,7 @@ import Header from '../pages/Header';
 import Footer from '../pages/Footer';
 import HeroCarousel from './Herocarosel';
 import SportCard from '../pages/SportCard';
-import UpgradeCard from './UpgradeCard';
+import UpgradeCard from './upgradeCard';
 import Image1 from '../assets/img1.jpeg';
 import Image2 from '../assets/boxing.jpg';
 import Image3 from '../assets/tennis-article1.jpg';
